@@ -1,0 +1,19 @@
+On this project, data is analyzed from measurement performed on a group of 30 subjects wearing an smartphone at the waist.
+Details can be found at "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones".
+
+In short, all the features selected to conform the database came from the accelerometer and gyroscope 3-axial raw signals
+that are generated on one smartphone. These reading are named, tAcc-XYZ and tGyro-XYZ, respectivelly.
+
+Post process gave origin to the "Jerk signals"(tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm
+(tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+Another post process, also, gave origin to fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag,
+fBodyGyroMag, fBodyGyroJerkMag.
+
+And are these post processed variables that originate the working file in this project.
+
+The submmited data file is a secondary process on the mean and standard deviations variables present on the post
+processed file.
+
+Each record in the "tidydat.txt" dataset provide the mean value for each combination of activity 
+and subjects as described on the URL above.
